@@ -1,0 +1,2 @@
+#!/bin/bash
+boodler -v --output=shout --define shout-server=localhost --define shout-port=8001 --define shout-user=source --define shout-password=password --define quality=0.8  --external piano1 com.apertome.piano1/Piano1

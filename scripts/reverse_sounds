@@ -1,0 +1,4 @@
+#!/bin/bash
+for x in *.wav; do
+    sox "$x" "${x/.wav}"_reversed.wav reverse
+done

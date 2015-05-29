@@ -1,0 +1,4 @@
+#!/bin/bash
+boodler --output=file --device piano-1min.raw --define time=600 --external piano1 com.apertome.piano1/Piano1
+#boodler --output=file --device piano-1min.raw --define time=600 --stats=10 --external piano1 com.apertome.piano1/Piano1
+sox -r 44100 -b 16 -e signed-integer -c 2 piano-1min.raw piano-1min.wav  
