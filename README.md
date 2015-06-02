@@ -9,11 +9,17 @@ This git repo of soundscapes is primarily useful if you want to modify them. If 
 
 ## Contents
 
-###Piano1
+###piano1
 Creates soundscapes using the Pianosounds1 package
 
-###Pianosounds1
+###pianosounds1
 A set of piano samples to be used in soundscapes
+
+###jayden
+Creates endless guitar soundscapes using the jayden package
+
+###jayden_sounds
+A set of guitar samples to be used in soundscapes
 
 ###Scripts
 A set of scripts for running boodler, and utilities for working with samples
