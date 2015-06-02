@@ -1,0 +1,6 @@
+#!/bin/bash
+for x in *.wav; do
+    echo ":${x/.wav}"
+    echo "dc.title: ${x/.wav} sound file"
+    echo ""
+done
